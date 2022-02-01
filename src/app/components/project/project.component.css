@@ -1,0 +1,4 @@
+.project-img:hover{
+    transform: translateY(-8px);
+    transition: transform 0.5s;
+}

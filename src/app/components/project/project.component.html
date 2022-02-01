@@ -1,0 +1,22 @@
+<div class="row  p-2 pt-5 mx-auto " data-aos="fade-right" data-aos-easing="ease-in-sine"  >
+
+    <div class=" col-md-6 col-12 order-0  p-md-2 p-0 my-auto  ">
+           <a href="{{project.href}}"><img src="{{project.imgSrc}}" alt="project image" class="project-img img-fluid rounded-3 border border-2 border-dark  shadow-sm" style="max-height: 400px;"></a> 
+    </div>
+    <div class=" col-md-6 col-12 pt-3 pt-md-0  my-auto position-relative " >
+        <div class=" text-end mt-md-3">
+            <h2  class="text-center text-md-end">{{project.title}}</h2>
+            <h6 class="text-center text-md-end text-muted">{{project.subTitle}}</h6>
+        </div>
+        <div class=" w-100 shadow-sm bg-white p-4 rounded-3  text-center text-md-end  " >
+            {{project.description}}
+        </div>
+        <div class=" text-center text-md-end mt-2 me-md-2">
+            <li class=" p-1 border-bottom rounded-3 text-muted border-2 m-1 mb-0 pb-0 d-inline-block " *ngFor="let tool of project.tools ">{{tool}}</li>
+        </div>
+        <div class="text-center text-md-end pt-2  mb-2">
+            <a *ngIf="project.githubLink != ''" href="{{project.githubLink}}" class=" text-muted mx-2"><fa-icon [icon]="faGithub" size="1x"></fa-icon></a>
+            <a href="{{project.href}}" class=" text-muted mx-2"><fa-icon [icon]="faArrowAltCircleDown" size="1x"></fa-icon></a>
+        </div>
+    </div>
+</div>

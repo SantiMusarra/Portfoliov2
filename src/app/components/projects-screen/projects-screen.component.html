@@ -1,0 +1,16 @@
+<div class=" pt-2">
+    <div class="row">
+        <div class="col-12 text-center">
+            <h1 class=" mb-3">Projects</h1>
+            <h5 class=" text-wrap text-muted">Below are shown some of my favorite projects that I made from scratch</h5>
+        </div>
+    </div>
+    <div class="row" *ngFor="let project of projects">
+        <app-project [project] = "project"></app-project>
+    </div>
+    <div class="row">
+        <div class="col-12 text-center">
+            <h6 class=" text-wrap pt-4">More on <a href="https://github.com/SantiMusarra" class=" text-decoration-none text-black">GitHub</a><fa-icon class=" mx-1" [icon]="faArrowAltCircleDown" size="1x"></fa-icon></h6>
+        </div>
+    </div>
+</div>

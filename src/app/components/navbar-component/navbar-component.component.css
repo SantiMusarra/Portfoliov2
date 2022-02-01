@@ -1,0 +1,4 @@
+.navbar-buttons:hover{
+    transform: translateY(-4px);
+    transition: transform 0.5s;
+}
