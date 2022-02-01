@@ -1,6 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 @font-face {
     font-family: Poppins;
+    font-display: swap;
     src: url(src/assets/font/Poppins-Bold.ttf);
 }
 

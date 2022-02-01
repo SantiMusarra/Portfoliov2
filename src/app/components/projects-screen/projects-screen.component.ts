@@ -15,9 +15,9 @@ export class ProjectsScreenComponent implements OnInit {
 
   projects : Project[] = [
     new Project('Ghifii','Web App','This Web App lets you search and surf through various gifs brought to you by the Giphy API, all with a very intuitive and clean UI',
-    'https://raw.githubusercontent.com/SantiMusarra/gif-app/dev/src/img/gifAppScreenshot1.png',['Bootstrap', 'Angular' , 'Firebase' , 'TypeScript'],'https://smghifii.web.app/','https://github.com/SantiMusarra/gif-app/tree/dev',false),
+    '../assets/img/gifAppScreenshot1.webp',['Bootstrap', 'Angular' , 'Firebase' , 'TypeScript'],'https://smghifii.web.app/','https://github.com/SantiMusarra/gif-app/tree/dev',false),
     new Project('Shape Switcher','Mobile Game','An Hyper-Casual puzzle game in which your reflexes play an important role in achiving success in this game',
-    '../assets/img/shapeSwitcher.png',['C#', 'Unity' , 'Illustrator' ],'https://play.google.com/store/apps/details?id=com.TrinketStudio.ShapeTapper&hl=it&gl=US','',false)
+    '../assets/img/shapeSwitcher.webp',['C#', 'Unity' , 'Illustrator' ],'https://play.google.com/store/apps/details?id=com.TrinketStudio.ShapeTapper&hl=it&gl=US','',false)
   ];
 
   
